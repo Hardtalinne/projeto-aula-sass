@@ -18,7 +18,7 @@ Para compilar o arquivo de estilo da pagina escrito em Sass foi necessário o us
 Demonstração do projeto
 
 Tela Home
-![Tela Home](images\1.png)
+![Tela Home](images/1.png)
 
 Tela Listagem de Veículos
-![Tela Estoque](images\2.png)
+![Tela Estoque](images/2.png)
