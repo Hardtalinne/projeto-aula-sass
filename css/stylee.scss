@@ -13,7 +13,16 @@
   box-sizing: border-box;
 }
 
-* {
+
+@mixin background($imgpath, $position: 0 0,$repeat: no-repeat) {
+    background: transparent url(#{$imgpath}) $repeat $position;
+    background-size: cover;
+    opacity: 0.80;
+    max-width: 100%;
+    height: auto;
+}
+
+ * {
   padding: 0;
   margin: 0;
   font-family: $font;
@@ -23,6 +32,10 @@ body {
   color: $text-color;
 }
 
+.body-background {
+  color: black;
+  @include background('../imagens/loja.jpg');
+}
 
 .header {
   @include bg;
@@ -70,11 +83,24 @@ body {
   margin: auto;
 }
 
-.main {
-  background-color: green;
-  & &-center {
-    text-align: center;
+.flex-contato {
+  display: flex;
+
+  & &-column {
+    flex-direction: column;
+    justify-content: space-evenly;
   }
+}
+
+.padding-md {
+  padding: 16px 12px;
+}
+
+.text-center {
+ text-align: center;
+}
+
+.main {
 
   & &-btn {
     @include sombra(#ccc);
@@ -137,6 +163,15 @@ body {
       width: 100%;
     }
   }
+
+   & &-banner {
+    display: block;
+
+    img {
+      width: 100%;
+    }
+  }
+
 }
 
 p {
