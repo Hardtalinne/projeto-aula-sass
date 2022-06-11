@@ -22,3 +22,9 @@ Tela Home
 
 Tela Listagem de Veículos
 ![Tela Estoque](images/2.png)
+
+Tela Sobre
+![Tela sobre](images/3.png)
+
+Tela de Contato
+![Tela Contato](images/4.png)
