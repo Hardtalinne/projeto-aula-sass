@@ -13,13 +13,24 @@
   box-sizing: border-box;
 }
 
+.card {
+  width: 300px;
+  background: $bg;
+  border-radius: 8px;
+  margin-top: 40px;
+  box-shadow: 0 0 10px #ccc;
+  padding: 20px;
 
-@mixin background($imgpath, $position: 0 0,$repeat: no-repeat) {
-    background: transparent url(#{$imgpath}) $repeat $position;
-    background-size: cover;
-    opacity: 0.80;
-    max-width: 100%;
-    height: auto;
+  h2 {
+    margin-bottom: 10px;
+
+  }
+}
+
+.container-card {
+  display: flex;
+  justify-content: space-evenly
+
 }
 
  * {
@@ -30,11 +41,6 @@
 
 body {
   color: $text-color;
-}
-
-.body-background {
-  color: black;
-  @include background('../imagens/loja.jpg');
 }
 
 .header {
@@ -101,6 +107,7 @@ body {
 }
 
 .main {
+  min-height: calc(100vh - 168px);
 
   & &-btn {
     @include sombra(#ccc);

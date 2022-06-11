@@ -3,7 +3,7 @@
 <h1 class="text-center">
     Todos os Veiculos disponiveis
 </h1>
-<div class="main-grid-destaques">
+<div class="main-grid-destaques container">
     <div class="main-grid-destaques-coluna">
         <img src="imagens/1.jpg" alt="Kwid">
         <h2>Renault Kwid</h2>

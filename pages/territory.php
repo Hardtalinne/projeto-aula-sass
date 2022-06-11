@@ -1,5 +1,5 @@
 <?php if (!isset($pagina)) exit; ?>
-<div class="main-grid-veiculo">
+<div class="main-grid-veiculo container">
     <div class="main-grid-veiculo-coluna">
         <a href="imagens/4.jpg" title="Territory" data-lightbox="Territory" class="main-foto">
             <img src="imagens/4.jpg" alt="Territory">

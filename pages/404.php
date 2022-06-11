@@ -1,6 +1,6 @@
 <?php if (!isset($pagina)) exit; ?>
 
-<h1 class="text-center">Ops! Página não encontrada!</h1>
+<h1 class="text-center container">Ops! Página não encontrada!</h1>
 <p class="text-center">
     <img src="imagens/404.jpg" alt="Página não encontrada">
 </p>

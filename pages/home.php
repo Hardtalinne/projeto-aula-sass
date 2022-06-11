@@ -8,7 +8,7 @@
     Veiculos em Destaque
 </h1>
 
-<div class="main-grid-destaques">
+<div class="main-grid-destaques container">
     <div class="main-grid-destaques-coluna">
         <img src="imagens/4.jpg" alt="Amarok">
         <h2>Volkswagen Amarok V6</h2>

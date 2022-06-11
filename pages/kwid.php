@@ -1,5 +1,5 @@
 <?php if (!isset($pagina)) exit; ?>
-<div class="main-grid-veiculo">
+<div class="main-grid-veiculo container">
     <div class="main-grid-veiculo-coluna">
         <a href="imagens/1.jpg" title="Kwid" data-lightbox="Kwid" class="main-foto">
             <img src="imagens/1.jpg" alt="Kwid">
